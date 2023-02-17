@@ -1,0 +1,8 @@
+Finer pore size sample
+P0 = 5.6 bar
+T = 22.0 C
+Pend = 4.7 bar
+
+Way too many bubbles
+
+eps = 0.2

@@ -1,0 +1,9 @@
+Finer pore size sample
+
+P0 = 6.4 bar
+T = 20.4 C
+Pend = 5.5 bar
+
+lower aperture and 9mm exposure seems a good tradeoff
+
+eps = p1/p2 - 1 = 0.16

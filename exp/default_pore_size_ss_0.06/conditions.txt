@@ -1,0 +1,6 @@
+Finer pore size sample
+
+P0 = 5.4 bar
+T = 21.5 C
+Pend = 5.1 bar
+

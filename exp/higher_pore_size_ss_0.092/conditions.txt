@@ -1,0 +1,7 @@
+higher pore size sample
+
+P0 = 5.9 bar
+T = 21.8 C
+Pend = 5.4 bar
+
+eps = p1/p2 - 1 = 0.092
