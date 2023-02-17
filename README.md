@@ -27,5 +27,5 @@ In our work, we refer to a 3D printed sample holder. The CAD files are contained
 
 
 # References
-[^1] A. Battistella, and I. Roghair and M. van Sint Annaland, _Chem.Eng.Sci._, 2023 (submitted for review)
-[^2] A. Battistella, [Hydrodynamics, Mass Transfer and Phase Transition in Bubbly Flows](https://research.tue.nl/en/publications/hydrodynamics-mass-transfer-and-phase-transition-in-bubbly-flows), PhD Thesis, Eindhoven University of Technology.
+[^1]: A. Battistella, and I. Roghair and M. van Sint Annaland, _Chem.Eng.Sci._, 2023 (submitted for review)
+[^2]: A. Battistella, [Hydrodynamics, Mass Transfer and Phase Transition in Bubbly Flows](https://research.tue.nl/en/publications/hydrodynamics-mass-transfer-and-phase-transition-in-bubbly-flows), PhD Thesis, Eindhoven University of Technology.
