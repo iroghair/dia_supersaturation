@@ -1,0 +1,7 @@
+Experimental/
+src/old/
+*cpython*
+**/*Zone.Identifier
+**/__pycache__/
+*.py[cod]
+*$py.class
