@@ -1,0 +1,8 @@
+Mean radius generated -> 42.51 pxls
+Mean radius detected  -> 43.99 pxls
+
+Missed, 0/100 bubbles
+
+Mean around 1.25 and 0.1 variance for normal distribution
+
+Here we have a couple of pxls deviation from the calculated diameter. 
