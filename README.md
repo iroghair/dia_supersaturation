@@ -1,9 +1,3 @@
----
-title: "Sample Document"
-output: pdf_document
-bibliography: bibliography.bib
----
-
 # Digital image analysis
 This repository contains the main source code and experimental data sets reported in [^1] and [^2].
 
