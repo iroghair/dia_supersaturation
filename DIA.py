@@ -26,18 +26,11 @@ import DIA_functions as DIA
 
 # File names
 base_folder = '../exp' # Folder that contains all experiments in separate folders
-data_folder = 'default_pore_size_ss_0.04' # Folder containing files to process in subfolder: data
+data_folder = 'default_pore_size_ss_0.16' # Folder containing files to process in subfolder: data
 img_base = 't' # Base name of files to process
 background =  'background_0001.tif' # Background image (path to image)
 output_folder = 'results' # Where to put the results
 
-# Crop parameters
-Crop = True
-Xcoord = 400
-YCoord = 181
-Width = 1370
-Height = 1457
-angle = 5
 
 # Parameters: (for a list of what they do, refer to each of the 
 # functions of opencv/skimage in order to understand)
@@ -73,6 +66,9 @@ if not os.path.exists(datdir):
     raise FileNotFoundError(f'Data path: {datdir} not accessible.')
 else:
     print(f'Using data folder: {datdir}...')
+    # Crop parameters
+    Crop, Xcoord, YCoord, Width, Height, Rotate, angle = DIA.get_crop_params(datdir)
+    
 
 # Now find images to process
 filelist = [x for x in os.listdir(datdir) if x.endswith('.tif') and x.startswith(img_base)]
@@ -194,7 +190,7 @@ for entry in Datadict.keys():
     plt.ylim((0,max_count))
 
     # Save histogram
-    plt.savefig(f'{output_folder}/pdf{n:05d}.png',format="png")
+    plt.savefig(os.path.join(outdir,f'pdf{n:05d}.png'),format="png")
 
     # Get number
     Number[n-1] = Datadict[entry].shape[0]

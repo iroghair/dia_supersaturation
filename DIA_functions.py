@@ -393,3 +393,19 @@ def max_radius(DataDictionary):
         
     return max
         
+def get_crop_params(datdir):
+    cropdata = list()
+    cropfile = os.path.join(datdir,'crop.dat')
+    with open(cropfile,'r') as file:
+        croplines = file.readlines()
+
+    for line in croplines:
+        cropdata.append(line.split()[-1])
+
+    if len(cropdata) != 7:
+        print('I know, this is ugly, but crop.dat needs to have the following shape:')
+        print('Crop = True\nXcoord = 400\nYCoord = 181\nWidth = 1370\nHeight = 1457\nangle = 5\n\n')
+        print('of course, change the numbers to your liking\n\n')
+        exit()
+
+    return bool(cropdata[0]), int(cropdata[1]), int(cropdata[2]), int(cropdata[3]), int(cropdata[4]), bool(cropdata[5]), int(cropdata[6])
