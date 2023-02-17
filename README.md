@@ -1,7 +1,13 @@
 # Digital image analysis
+<<<<<<< HEAD
 
 This repository contains the main source code and experimental data sets reported in[^1] and[^2].
 
+=======
+
+This repository contains the main source code and experimental data sets reported in [^1] and [^2].
+
+>>>>>>> b0c5ff7f598da6f7b449ba510f815be8c69129a7
 The main source code located in `DIA.py` and helper functions in `DIA_functions.py` are written to detect bubbles nucleating on a porous surface due to super-saturation. 
 
 ## How to use
@@ -16,7 +22,11 @@ In `DIA.py`, change the user input to point to the desired folders that contain 
 
 ### Run
 
+<<<<<<< HEAD
 Simply run `python3 DIA.py`, the output is found in a subfolder `results` inside the data set folder.
+=======
+Simply run python3 DIA.py, the output is found in a subfolder `results` inside the data set folder.
+>>>>>>> b0c5ff7f598da6f7b449ba510f815be8c69129a7
 
 ## Generated images
 
