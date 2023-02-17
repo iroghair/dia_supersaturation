@@ -1,4 +1,4 @@
-# Digital image analysis
+# Digital Image Analysis for Supersaturation Induced Bubble Nucleation
 This repository contains the main source code and experimental data sets reported in[^1] and[^2].
 
 The main source code located in `DIA.py` and helper functions in `DIA_functions.py` are written to detect bubbles nucleating on a porous surface due to super-saturation. 
